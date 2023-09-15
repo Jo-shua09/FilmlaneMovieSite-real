@@ -1517,7 +1517,14 @@
         color: var(--citrine);
         font-size: 35px;
     }
-
+    .carousel-item img{
+        position: relative;
+        border-radius:5px;
+        box-shadow:0 4px 8px hsla(0, 0%, 0%, 0.25);
+        width: 88%;
+        margin-left:40px;
+        margin-bottom: 20px;
+    }
     .carousel-control-prev{
         position: absolute;
         margin-top: -250px;
@@ -1688,7 +1695,14 @@
         margin-top: 20px;
         padding: 10px 25px;
     }
-
+    .carousel-item img{
+        position: relative;
+        border-radius:5px;
+        box-shadow:0 4px 8px hsla(0, 0%, 0%, 0.25);
+        width: 88%;
+        margin: 40px;
+        margin-bottom: 20px;
+    }
     .carousel-item {
         padding-right: 30px;
     }
@@ -1701,17 +1715,20 @@
     .carousel-control-next{
         position: absolute;
         margin-top: -200px;
-        margin-right: 25px;
+        margin-right: 30px;
         font-weight: var(--fw-bold);
+    }
+    .carousel-item .movieNameYear h3{
+        font-size:var(--fs-7);
     }
     .carousel-item .movieNameYear p{
         font-size: var(--fs-6);
         font-weight: var(--fw-500);
         color: var(--citrine);
-        margin-right: -32px;
+        margin-right: -28px;
     }
     .rating-time{   
-        margin-left: 150px;
+        margin-left: 140px;
     }
     .rate{
         margin-left: 20px;
@@ -1723,7 +1740,7 @@
         margin-left: 40px;
     }
     .service-banner button{
-        right: 170px;
+        right: 160px;
         position: absolute;
     }
     .our-services h1{
@@ -1814,6 +1831,202 @@
     }
     .foot-1 button:hover{
         margin-right: -12px;
+        font-size: var(--fs-11);
+        padding-right: 14px;
+        padding-bottom: 14px;
+        transition: var(--transition-1);
+        padding-left: 14px;
+    }
+    .footre-2{
+        display: block;
+    }
+    .foot-2 img{
+        margin-left: 85px;
+    }
+    .foot-3 a{
+        margin-left: -5px;
+        font-size: var(--fs-12);
+    }
+    .footre-3{
+        display: block;
+    }
+    .foot-4{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .foot-4 a{
+        font-size: var(--fs-11);
+    }
+    .foot-5 {
+        margin-left: 95px;
+    }
+    .finalFooter{
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footree img{
+        width: 70%;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:398px) {
+    .navbar
+    .body-content span h3{
+        font-size: var(--fs-10);
+        margin-bottom: -5px;
+    }
+    .body-content h1{
+        font-size: 30px;
+    }
+    .body-content h1 span{
+        color: var(--citrine);
+        font-size: 30px;
+    }
+    .time-date{
+        display: none;
+    }
+    .body-content .btn2{
+        margin-top: 20px;
+        padding: 10px 25px;
+    }
+    .carousel-item img{
+        position: relative;
+        border-radius:5px;
+        box-shadow:0 4px 8px hsla(0, 0%, 0%, 0.25);
+        width: 88%;
+        margin: 35px;
+        margin-bottom: 20px;
+    }
+    .carousel-item {
+        padding-right: 30px;
+    }
+    .carousel-control-prev{
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 30px;
+        font-weight: var(--fw-bold);
+    }
+    .carousel-control-next{
+        position: absolute;
+        margin-top: -200px;
+        margin-right: 30px;
+        font-weight: var(--fw-bold);
+    }
+    .carousel-item .movieNameYear h3{
+        font-size:var(--fs-7);
+    }
+    .carousel-item .movieNameYear p{
+        font-size: var(--fs-6);
+        font-weight: var(--fw-500);
+        color: var(--citrine);
+        margin-right: -30px;
+    }
+    .rating-time{   
+        margin-left: 130px;
+    }
+    .rate{
+        margin-left: 20px;
+    }
+
+    .service-banner img{
+        width: 70%;
+        position: relative;
+        margin-left: 40px;
+    }
+    .service-banner button{
+        right: 160px;
+        position: absolute;
+    }
+    .our-services h1{
+        margin-top: -10px;
+        width: 70%;
+        font-size: var(--fs-5);
+    }
+    .our-services p{
+        width: 100%;
+        font-size: var(--fs-11);
+        padding-right: 50px;
+    }
+    .serve-desc h3{
+        margin-top: 10px;
+        font-size: var(--fs-9);
+    }
+    .serve1{
+        width: 100%;
+    }
+    .serve-desc p{
+        font-size: var(--fs-11);
+    }
+    .serve1 .icon{
+        width:130px;
+        font-size: 35px;
+        height: 80px;
+    }
+    .serve2 .icon{
+        width:130px;
+        font-size: 35px;
+        height: 80px;
+    }
+
+    .btns button{
+        padding:15px  20px;
+        margin-top: 20px;
+        font-size: var(--fs-10);
+    }
+    .btns button:nth-child(4){
+        display: none;
+    }
+    .top-rated-movies{
+        display: block;
+    }
+    .display{
+        display: block;
+    }
+    .movie-image img{
+        width:90%;
+    }
+    .movie-name-year{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .quality,.time-rating,.rating{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .quality h5{
+        margin-left: 25px;
+    }
+    .time-rating{
+        margin-left: 170px;
+        margin-right: 10px;
+    }
+    .second-part{
+        margin-top: -40px;
+    }
+
+    .series{
+        display: block;
+    }
+
+    .foot h1{
+        font-size: var(--fs-4);
+        margin-right: 20px;
+    }
+    .foot p{
+        margin-right: 20px;
+        font-size: var(--fs-10);
+    }
+    .foot-1 button{
+        margin-right: -14px;
+        font-size: var(--fs-11);
+        padding-right: 15px;
+        padding-bottom: 16px;
+        padding-left: 15px;
+    }
+    .foot-1 button:hover{
+        margin-right: -14px;
         font-size: var(--fs-11);
         padding-right: 14px;
         padding-bottom: 14px;
