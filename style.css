@@ -1790,6 +1790,7 @@
     }
     .movie-image img{
         width:90%;
+        margin-left: 20px;
     }
     .movie-name-year{
         margin-right: 25px;
@@ -1871,7 +1872,7 @@
     }
 }
 
-@media screen and (max-width:398px) {
+@media screen and (max-width:360px) {
     .navbar
     .body-content span h3{
         font-size: var(--fs-10);
@@ -1890,6 +1891,10 @@
     .body-content .btn2{
         margin-top: 20px;
         padding: 10px 25px;
+    }
+    .buttons .one{
+        padding: 8px 25px;
+        margin-bottom: -30px;
     }
     .carousel-item img{
         position: relative;
@@ -1921,10 +1926,10 @@
         font-size: var(--fs-6);
         font-weight: var(--fw-500);
         color: var(--citrine);
-        margin-right: -30px;
+        margin-right: -32px;
     }
     .rating-time{   
-        margin-left: 131px;
+        margin-left: 95px;
     }
     .rate{
         margin-left: 20px;
@@ -1936,7 +1941,7 @@
         margin-left: 40px;
     }
     .service-banner button{
-        right: 160px;
+        right: 150px;
         position: absolute;
     }
     .our-services h1{
@@ -1950,8 +1955,11 @@
         padding-right: 50px;
     }
     .serve-desc h3{
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: var(--fs-9);
+    }
+    .serve-desc p{
+        width: 100%;
     }
     .serve1{
         width: 100%;
@@ -1971,12 +1979,9 @@
     }
 
     .btns button{
-        padding:15px  20px;
+        padding:12px  15px;
         margin-top: 20px;
         font-size: var(--fs-10);
-    }
-    .btns button:nth-child(4){
-        display: none;
     }
     .top-rated-movies{
         display: block;
@@ -1986,6 +1991,7 @@
     }
     .movie-image img{
         width:90%;
+        margin-left: 15px;
     }
     .movie-name-year{
         margin-right: 25px;
@@ -1999,7 +2005,7 @@
         margin-left: 25px;
     }
     .time-rating{
-        margin-left: 170px;
+        margin-left: 130px;
         margin-right: 10px;
     }
     .second-part{
@@ -2012,21 +2018,23 @@
 
     .foot h1{
         font-size: var(--fs-4);
-        margin-right: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
     }
     .foot p{
         margin-right: 20px;
         font-size: var(--fs-10);
     }
     .foot-1 button{
-        margin-right: -14px;
+        margin-right: -20px;
         font-size: var(--fs-11);
         padding-right: 15px;
         padding-bottom: 16px;
         padding-left: 15px;
     }
     .foot-1 button:hover{
-        margin-right: -14px;
+        margin-right: -20px;
         font-size: var(--fs-11);
         padding-right: 14px;
         padding-bottom: 14px;
@@ -2037,33 +2045,41 @@
         display: block;
     }
     .foot-2 img{
-        margin-left: 85px;
+        margin-left: 60px;
     }
     .foot-3 a{
         margin-left: -5px;
         font-size: var(--fs-12);
+        margin-left: -25px;
+        padding-right: 15px;
+        margin-right: 0px;
     }
     .footre-3{
         display: block;
     }
-    .foot-4{
-        margin-left: 20px;
-        margin-right: 0px;
+    .divider{
+        margin-right: 25px;
+        margin-left: -10px;
+    }
+    .foot-4{     
+        margin-left: -10px;
+        padding-right: 10px;
     }
     .foot-4 a{
         font-size: var(--fs-11);
     }
     .foot-5 {
-        margin-left: 95px;
+        margin-left: 65px;
     }
     .finalFooter{
         display: block;
         text-align: center;
         padding-bottom: 20px;
+        margin-right: 20px;
     }
     .footree img{
         width: 70%;
-        margin-right: 30px;
+        margin-right: 40px;
     }
 }
 
@@ -2365,6 +2381,105 @@
     .download-button{
         padding-bottom: 50px;
         margin-left: 100px;
+    }
+    .download-button button{
+        transform: none;
+        margin-top: 50px;
+    }
+    .top-rated-movies{
+        display: block;
+        padding-bottom: 40px;
+    }
+    .display{
+        display: block;
+    }
+}
+
+@media screen and (max-width:360px) {
+    
+    .download-desc{
+        overflow: hidden;
+        display: block;
+        width: 100%;
+    }
+    .download-image{
+        text-align: center;
+        position: relative;
+    }
+    .download-image img{
+        width: 75%;
+        margin-left: -5px;
+    }
+    .download-image i{
+        position: absolute;
+        font-size: 150px;
+        top: 25%;
+        left: 105px;
+    }
+    .description{
+        margin-top: -100px;
+        margin-left: 35px;
+        position: relative;
+    }
+    .year-time,.time{
+        display: none;
+    }
+    .write-up{
+        margin-bottom: -30px;
+    }
+    .write-up p{
+        width: 90%;
+    }
+    .decorate h5{
+        padding: 5px 8px;
+    }
+    .decorate span{
+        margin-left: -8px;
+        word-spacing: 4px;
+    }
+    .decorate span .span,
+    .decorate span .span2{
+        display: none;
+    }
+    .watch-now{
+        width: 82%;
+        margin-left: -55px;
+    }
+    .watch-now span i{
+        font-size: var(--fs-10);
+        margin-left:-20px;
+        margin-top: 20px;
+    }
+    .watch-now span h6{
+        font-size: var(--fs-11);
+        margin-left: -30px;
+    } 
+    .watch-now span h3{
+        font-size: var(--fs-11);
+        margin-top: 5px;
+        margin-left: -50px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .watch-now span p{
+        font-size: var(--fs-12);
+        margin-left: -52px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .watch-now .btn button{
+        padding: 8px 10px;
+        margin-top: 7px;
+        margin-right:-30px;
+        margin-left: -9px;
+        font-size: var(--fs-12);
+    }
+    .watch-now i,.watch-now h6{
+        cursor: pointer;
+    }
+    .download-button{
+        padding-bottom: 50px;
+        margin-left: 75px;
     }
     .download-button button{
         transform: none;
